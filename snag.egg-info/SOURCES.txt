@@ -4,4 +4,5 @@ snag.py
 snag.egg-info/PKG-INFO
 snag.egg-info/SOURCES.txt
 snag.egg-info/dependency_links.txt
+snag.egg-info/requires.txt
 snag.egg-info/top_level.txt
