@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: snag
+Name: snag-dom
 Version: 0.1
 Summary: An HTML utility package
 Home-page: UNKNOWN
@@ -12,6 +12,6 @@ Description: # snag
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: GPL
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
