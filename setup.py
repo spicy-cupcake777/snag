@@ -17,7 +17,7 @@ setuptools.setup(
         packages=setuptools.find_packages(),
         install_requires= [
             'requests',
-            'bottle'
+            'bs4'
         ],
         classifiers=[
             'Programming Language :: Python :: 3',
