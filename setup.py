@@ -7,8 +7,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
         name='snag-dom',
-        version='0.1',
-        scripts=['snag.py'],
+        version='0.7',
         author='Cassandra Gentry',
         author_email='cassiegentlekitty@gmail.com',
         description='An HTML utility package',
