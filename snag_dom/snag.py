@@ -22,7 +22,7 @@ def S(pattern, url):
     # group 1 is the element+selector+selected, e.g. div#container or span.right
     # group 3 is the selector, e.g. # or .
     # group 4 is the attribute, e.g. href (found inside square braces which are not a part of the group)
-    regex = r'^(((\.|#)?[\w]+)*)\[?([\w]*)\]?$'
+    regex = r'^(((\.|#)?[\w-]+)*)\[?([\w-]*)\]?$'
     pattern = re.match(regex, pattern)
     if not pattern:
         raise InvalidReference('The given string is not a valid CSS reference')
