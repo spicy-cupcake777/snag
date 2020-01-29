@@ -20,7 +20,7 @@ Then install snag-dom.
 To use, simply call `S` with the CSS selector and the URL you intend to select elements from.
 
 ```python
-from snag-dom import S
+from snag_dom import S
 header = S('h1', 'http://www.example.com')[0]
 print(header)
 ```
